@@ -2426,9 +2426,9 @@ cut_icgray_p = "[0.2]*400+[0]*600"  # @param {type: 'string'}
 # !! }}
 text_prompts = {
     0: [
-        "A beautiful painting of a singular lighthouse, shining its light across a tumultuous sea of blood by greg rutkowski and thomas kinkade, Trending on artstation.",
-        "yellow color scheme"],
-    100: ["This set of prompts start at frame 100", "This prompt has weight five:5"],
+        raw_input("Enter your prompt...")
+        ,
+        raw_input("Enter a colour...")]
 }
 
 image_prompts = {
