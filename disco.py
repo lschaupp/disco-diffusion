@@ -2448,7 +2448,7 @@ image_prompts = {
 # @title Do the Run!
 # @markdown `n_batches` ignored with animation modes.
 display_rate = 500  # @param{type: 'number'}
-n_batches = 1  # @param{type: 'number'}
+n_batches = 2  # @param{type: 'number'}
 
 # Update Model Settings
 timestep_respacing = f'ddim{steps}'
