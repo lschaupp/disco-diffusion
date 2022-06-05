@@ -2391,7 +2391,7 @@ perlin_mode = 'mixed'  # @param ['mixed', 'color', 'gray']
 set_seed = 'random_seed'  # @param{type: 'string'}
 eta = 0.8  # @param{type: 'number'}
 clamp_grad = True  # @param{type: 'boolean'}
-clamp_max = 0.05  # @param{type: 'number'}
+clamp_max = 0.09  # @param{type: 'number'}
 
 ### EXTRA ADVANCED SETTINGS:
 randomize_class = True
@@ -2406,8 +2406,8 @@ rand_mag = 0.05
 
 # @markdown cut_overview and cut_innercut are cumulative for total cutn on any given step. Overview cuts see the entire image and are good for early structure, innercuts are your standard cutn.
 
-cut_overview = "[24]*400+[8]*600"  # @param {type: 'string'}
-cut_innercut = "[8]*400+[24]*600"  # @param {type: 'string'}
+cut_overview = "[12]*400+[4]*600"  # @param {type: 'string'}
+cut_innercut = "[4]*400+[12]*600"  # @param {type: 'string'}
 cut_ic_pow = 1  # @param {type: 'number'}
 cut_icgray_p = "[0.2]*400+[0]*600"  # @param {type: 'string'}
 
