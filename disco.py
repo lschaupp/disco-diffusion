@@ -2426,9 +2426,9 @@ cut_icgray_p = "[0.2]*400+[0]*600"  # @param {type: 'string'}
 # !! }}
 text_prompts = {
     0: [
-        raw_input("Enter your prompt...")
+        input("Enter your prompt...")
         ,
-        raw_input("Enter a colour...")]
+        input("Enter a colour...")]
 }
 
 image_prompts = {
