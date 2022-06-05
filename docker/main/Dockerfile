@@ -1,6 +1,6 @@
 # Model prep phase, also cuts down on build context wait time since these models files
 # are large and prone to take long to copy...
-FROM disco-diffusion-prep:5.1 AS modelprep
+FROM disco-diffusion-prep:5.2 AS modelprep
 
 FROM nvcr.io/nvidia/pytorch:21.08-py3
 
@@ -24,8 +24,7 @@ COPY --from=modelprep /scratch/models /workspace/code/models
 COPY --from=modelprep /scratch/pretrained /workspace/code/pretrained
 
 # Clone Git repositories
-RUN git clone https://github.com/alembics/disco-diffusion.git && \
-    git clone https://github.com/openai/CLIP && \
+RUN git clone https://github.com/openai/CLIP && \
     git clone https://github.com/assafshocher/ResizeRight.git && \
     git clone https://github.com/MSFTserver/pytorch3d-lite.git && \
     git clone https://github.com/isl-org/MiDaS.git && \
