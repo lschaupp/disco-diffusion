@@ -2406,8 +2406,8 @@ rand_mag = 0.05
 
 # @markdown cut_overview and cut_innercut are cumulative for total cutn on any given step. Overview cuts see the entire image and are good for early structure, innercuts are your standard cutn.
 
-cut_overview = "[12]*400+[4]*600"  # @param {type: 'string'}
-cut_innercut = "[4]*400+[12]*600"  # @param {type: 'string'}
+cut_overview = "[24]*400+[8]*600"  # @param {type: 'string'}
+cut_innercut = "[8]*400+[24]*600"  # @param {type: 'string'}
 cut_ic_pow = 1  # @param {type: 'number'}
 cut_icgray_p = "[0.2]*400+[0]*600"  # @param {type: 'string'}
 
@@ -2450,7 +2450,7 @@ image_prompts = {
 # @title Do the Run!
 # @markdown `n_batches` ignored with animation modes.
 display_rate = 500  # @param{type: 'number'}
-n_batches = 50  # @param{type: 'number'}
+n_batches = 1  # @param{type: 'number'}
 
 # Update Model Settings
 timestep_respacing = f'ddim{steps}'
