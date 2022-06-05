@@ -1745,7 +1745,7 @@ diffusion_sampling_mode = 'plms'  # @param ['plms','ddim']
 
 use_checkpoint = True  # @param {type: 'boolean'}
 ViTB32 = True  # @param{type:"boolean"}
-ViTB16 = False  # @param{type:"boolean"}
+ViTB16 = True  # @param{type:"boolean"}
 ViTL14 = False  # @param{type:"boolean"}
 RN101 = False  # @param{type:"boolean"}
 RN50 = True  # @param{type:"boolean"}
