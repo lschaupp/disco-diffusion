@@ -1739,8 +1739,7 @@ class SecondaryDiffusionImageNet2(nn.Module):
 # !!   "id": "ModelSettings"
 # !! }}
 # @markdown ####**Models Settings:**
-print("TESTSTSTSTSSTST")
-diffusion_model = "256x256_diffusion_uncond"  # @param ["256x256_diffusion_uncond", "512x512_diffusion_uncond_finetune_008100"]
+diffusion_model = "512x512_diffusion_uncond_finetune_008100"  # @param ["256x256_diffusion_uncond", "512x512_diffusion_uncond_finetune_008100"]
 use_secondary_model = True  # @param {type: 'boolean'}
 diffusion_sampling_mode = 'ddim'  # @param ['plms','ddim']
 
@@ -1940,7 +1939,7 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # @markdown ####**Basic Settings:**
 batch_name = 'TimeToDisco'  # @param{type: 'string'}
 steps = 250  # @param [25,50,100,150,250,500,1000]{type: 'raw', allow-input: true}
-width_height = [1280, 768]  # @param{type: 'raw'}
+width_height = [512, 512]  # @param{type: 'raw'}
 clip_guidance_scale = 5000  # @param{type: 'number'}
 tv_scale = 0  # @param{type: 'number'}
 range_scale = 150  # @param{type: 'number'}
