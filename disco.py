@@ -1745,7 +1745,7 @@ diffusion_sampling_mode = 'plms'  # @param ['plms','ddim']
 
 use_checkpoint = True  # @param {type: 'boolean'}
 ViTB32 = True  # @param{type:"boolean"}
-ViTB16 = True  # @param{type:"boolean"}
+ViTB16 = False  # @param{type:"boolean"}
 ViTL14 = False  # @param{type:"boolean"}
 RN101 = False  # @param{type:"boolean"}
 RN50 = True  # @param{type:"boolean"}
@@ -1944,7 +1944,7 @@ clip_guidance_scale = 5000  # @param{type: 'number'}
 tv_scale = 0  # @param{type: 'number'}
 range_scale = 150  # @param{type: 'number'}
 sat_scale = 0  # @param{type: 'number'}
-cutn_batches = 4  # @param{type: 'number'}
+cutn_batches = 1  # @param{type: 'number'}
 skip_augs = False  # @param{type: 'bodolean'}
 
 # @markdown ---
