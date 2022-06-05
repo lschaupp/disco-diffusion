@@ -3,4 +3,4 @@
 FROM disco-diffusion:5.2 AS modelmain
 
 # Clone Git repositories
-RUN git clone https://github.com/alembics/disco-diffusion.git
+RUN git clone https://github.com/lschaupp/disco-diffusion
