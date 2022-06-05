@@ -1939,7 +1939,7 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # @markdown ####**Basic Settings:**
 batch_name = 'TimeToDisco'  # @param{type: 'string'}
 steps = 125  # @param [25,50,100,150,250,500,1000]{type: 'raw', allow-input: true}
-width_height = [512, 512]  # @param{type: 'raw'}
+width_height = [256, 256]  # @param{type: 'raw'}
 clip_guidance_scale = 5000  # @param{type: 'number'}
 tv_scale = 0  # @param{type: 'number'}
 range_scale = 150  # @param{type: 'number'}
