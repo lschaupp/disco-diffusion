@@ -1741,7 +1741,7 @@ class SecondaryDiffusionImageNet2(nn.Module):
 # @markdown ####**Models Settings:**
 diffusion_model = "512x512_diffusion_uncond_finetune_008100"  # @param ["256x256_diffusion_uncond", "512x512_diffusion_uncond_finetune_008100"]
 use_secondary_model = True  # @param {type: 'boolean'}
-diffusion_sampling_mode = 'ddim'  # @param ['plms','ddim']
+diffusion_sampling_mode = 'plms'  # @param ['plms','ddim']
 
 use_checkpoint = True  # @param {type: 'boolean'}
 ViTB32 = True  # @param{type:"boolean"}
