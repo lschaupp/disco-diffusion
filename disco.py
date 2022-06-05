@@ -2391,7 +2391,7 @@ perlin_mode = 'mixed'  # @param ['mixed', 'color', 'gray']
 set_seed = 'random_seed'  # @param{type: 'string'}
 eta = 0.8  # @param{type: 'number'}
 clamp_grad = True  # @param{type: 'boolean'}
-clamp_max = 0.09  # @param{type: 'number'}
+clamp_max = 0.05  # @param{type: 'number'}
 
 ### EXTRA ADVANCED SETTINGS:
 randomize_class = True
