@@ -1944,7 +1944,7 @@ clip_guidance_scale = 5000  # @param{type: 'number'}
 tv_scale = 0  # @param{type: 'number'}
 range_scale = 150  # @param{type: 'number'}
 sat_scale = 0  # @param{type: 'number'}
-cutn_batches = 2  # @param{type: 'number'}
+cutn_batches = 1  # @param{type: 'number'}
 skip_augs = False  # @param{type: 'bodolean'}
 
 # @markdown ---
